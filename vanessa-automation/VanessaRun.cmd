@@ -1,0 +1,1 @@
+vrunner vanessa --pathvanessa vanessa-automation.epf --ibconnection /SDeveloper1\Test1 --db-user admin --db-pwd 007 --vanessasettings VBParams.json
