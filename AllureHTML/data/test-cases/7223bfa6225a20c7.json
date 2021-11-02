@@ -1,0 +1,611 @@
+{
+  "uid" : "7223bfa6225a20c7",
+  "name" : "Дымовой тест списка Исполнителей",
+  "historyId" : "Дымовой тест.Дымовой тест списка Исполнителей",
+  "time" : {
+    "start" : 1635409463259,
+    "stop" : 1635409469049,
+    "duration" : 5790
+  },
+  "status" : "failed",
+  "statusMessage" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+  "statusTrace" : "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(3918)}: Кнопка с именем <СписокИсполнителейИзменить> не найдена.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Начальная страница\n        ИмяАктивнойФормы: Обработка.СД_АРМ_Руководителя.Форма.Форма\n        ИмяФичи: Дымовой тест\n        ИмяСценария: Дымовой тест списка Исполнителей\n        НомерСтрокиДерева: 151\n        НомерСтрокиФичи: 20\n        ПолнйПутьКФиче: D:\\Rusak\\vanessa\\sdTestBacklog\\001_ДымовыеТесты\\дымовой тест списка Исполнители.feature\n        ИмяФайла: D:\\Rusak\\vanessa\\vanessa-automation\\features\\Libraries\\UITestRunner\\step_definitions\\РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: Developer1\n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения:  Srvr=\"localhost\";Ref=\"Test1\" \n        PIDКлиентаТестирования: 13964\n        ВерсияVA: ver 1.2.032\n        ВерсияПлатформы: 8.3.19.1264\n        РежимСовместимостиTestManager: Версия8_3_12\n        ДатаВремяОшибки: 28.10.2021 11:24:29",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "И я подключаю TestClient \"sd_test\" логин \"Руководитель1\" пароль \"\"",
+    "time" : {
+      "start" : 1635409463335,
+      "stop" : 1635409464143,
+      "duration" : 808
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "sd_test"
+    }, {
+      "name" : "Парам2",
+      "value" : "Руководитель1"
+    }, {
+      "name" : "Парам3",
+      "value" : ""
+    } ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "И я закрыл все окна клиентского приложения",
+    "time" : {
+      "start" : 1635409464298,
+      "stop" : 1635409465061,
+      "duration" : 763
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Если это не начальная страница Тогда",
+    "time" : {
+      "start" : 1635409465061,
+      "stop" : 1635409465063,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "И я активизирую поле \"ПолеHTML\"",
+    "time" : {
+      "start" : 1635409465063,
+      "stop" : 1635409465138,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "ПолеHTML"
+    } ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+    "statusTrace" : "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(3918)}: Кнопка с именем <СписокИсполнителейИзменить> не найдена.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Начальная страница\n        ИмяАктивнойФормы: Обработка.СД_АРМ_Руководителя.Форма.Форма\n        ИмяФичи: Дымовой тест\n        ИмяСценария: Дымовой тест списка Исполнителей\n        НомерСтрокиДерева: 151\n        НомерСтрокиФичи: 20\n        ПолнйПутьКФиче: D:\\Rusak\\vanessa\\sdTestBacklog\\001_ДымовыеТесты\\дымовой тест списка Исполнители.feature\n        ИмяФайла: D:\\Rusak\\vanessa\\vanessa-automation\\features\\Libraries\\UITestRunner\\step_definitions\\РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: Developer1\n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения:  Srvr=\"localhost\";Ref=\"Test1\" \n        PIDКлиентаТестирования: 13964\n        ВерсияVA: ver 1.2.032\n        ВерсияПлатформы: 8.3.19.1264\n        РежимСовместимостиTestManager: Версия8_3_12\n        ДатаВремяОшибки: 28.10.2021 11:24:29",
+    "steps" : [ {
+      "name" : "Когда я перехожу к закладке с именем \"СтраницаИсполнители\"",
+      "time" : {
+        "start" : 1635409465138,
+        "stop" : 1635409465144,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СтраницаИсполнители"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокИсполнителей\" я нажимаю на кнопку с именем 'СписокИсполнителейИзменить'",
+      "time" : {
+        "start" : 1635409465145,
+        "stop" : 1635409469049,
+        "duration" : 3904
+      },
+      "status" : "failed",
+      "statusMessage" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+      "statusTrace" : "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(3918)}: Кнопка с именем <СписокИсполнителейИзменить> не найдена.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Начальная страница\n        ИмяАктивнойФормы: Обработка.СД_АРМ_Руководителя.Форма.Форма\n        ИмяФичи: Дымовой тест\n        ИмяСценария: Дымовой тест списка Исполнителей\n        НомерСтрокиДерева: 151\n        НомерСтрокиФичи: 20\n        ПолнйПутьКФиче: D:\\Rusak\\vanessa\\sdTestBacklog\\001_ДымовыеТесты\\дымовой тест списка Исполнители.feature\n        ИмяФайла: D:\\Rusak\\vanessa\\vanessa-automation\\features\\Libraries\\UITestRunner\\step_definitions\\РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯНажимаюНаКнопкуСИменем\n        ИмяРаннера: Developer1\n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения:  Srvr=\"localhost\";Ref=\"Test1\" \n        PIDКлиентаТестирования: 13964\n        ВерсияVA: ver 1.2.032\n        ВерсияПлатформы: 8.3.19.1264\n        РежимСовместимостиTestManager: Версия8_3_12\n        ДатаВремяОшибки: 28.10.2021 11:24:29",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокИсполнителей"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокИсполнителейИзменить"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда открылось окно 'Исполнитель * (Пользователь)'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Исполнитель * (Пользователь)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И Я закрываю окно 'Исполнитель * (Пользователь)'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Исполнитель * (Пользователь)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокИсполнителей\" я нажимаю на кнопку с именем 'СписокИсполнителейОбновить'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокИсполнителей"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокИсполнителейОбновить"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокИсполнителей\" я нажимаю на кнопку с именем 'СписокИсполнителейСтандартныеНастройкиДинамическогоСписка'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокИсполнителей"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокИсполнителейСтандартныеНастройкиДинамическогоСписка"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокИсполнителей\" я нажимаю на кнопку с именем 'СписокИсполнителейВывестиСписок'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокИсполнителей"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокИсполнителейВывестиСписок"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда открылось окно 'Вывести список'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Вывести список"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я нажимаю на кнопку 'Отмена'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Отмена"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокИсполнителей\" я нажимаю на кнопку с именем 'СписокИсполнителейОтборИсполнителиПодразделение'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокИсполнителей"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокИсполнителейОтборИсполнителиПодразделение"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда открылось окно 'Выберите подразделение'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Выберите подразделение"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ФормаВыбрать"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокИсполнителей\" я нажимаю на кнопку с именем 'СписокИсполнителейОтборИсполнителиПодразделение'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокИсполнителей"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокИсполнителейОтборИсполнителиПодразделение"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокИсполнителей\" я нажимаю на кнопку с именем 'СписокИсполнителейОтметитьВсеИсполнители'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокИсполнителей"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокИсполнителейОтметитьВсеИсполнители"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокИсполнителей\" я нажимаю на кнопку 'Снять отметки'",
+      "time" : {
+        "start" : 1635409469049,
+        "stop" : 1635409469049,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокИсполнителей"
+      }, {
+        "name" : "Парам2",
+        "value" : "Снять отметки"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "f266bbcb47dceac0",
+      "name" : "MainScreen",
+      "source" : "f266bbcb47dceac0.png",
+      "type" : "image/png",
+      "size" : 155744
+    }, {
+      "uid" : "6fa47c2e13641bf9",
+      "name" : "TestManager.[КОПИЯ] СД / Система делегирования, редакция 1.2.5.6.1",
+      "source" : "6fa47c2e13641bf9.png",
+      "type" : "image/png",
+      "size" : 88665
+    }, {
+      "uid" : "b3d8307b9ee0fcff",
+      "name" : "sd_test.[КОПИЯ] СД / Система делегирования, редакция 1.2.5.6.1",
+      "source" : "b3d8307b9ee0fcff.png",
+      "type" : "image/png",
+      "size" : 974428
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Дымовой тест списка Исполнителей"
+  }, {
+    "name" : "epic",
+    "value" : "001_ДымовыеТесты"
+  }, {
+    "name" : "suite",
+    "value" : " Kislyak"
+  }, {
+    "name" : "package",
+    "value" : "001_ДымовыеТесты"
+  }, {
+    "name" : "host",
+    "value" : "Developer1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "71f647c59e7c21d3",
+        "status" : "failed",
+        "statusDetails" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+        "time" : {
+          "start" : 1635409463259,
+          "stop" : 1635409469049,
+          "duration" : 5790
+        }
+      }, {
+        "uid" : "9b7522547bf5bf73",
+        "status" : "failed",
+        "statusDetails" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+        "time" : {
+          "start" : 1635405434657,
+          "stop" : 1635405440172,
+          "duration" : 5515
+        }
+      }, {
+        "uid" : "f36e0753af67bb62",
+        "status" : "failed",
+        "statusDetails" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+        "time" : {
+          "start" : 1635404328917,
+          "stop" : 1635404334111,
+          "duration" : 5194
+        }
+      }, {
+        "uid" : "e77ad5e0d0794a7d",
+        "status" : "failed",
+        "statusDetails" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+        "time" : {
+          "start" : 1635404328917,
+          "stop" : 1635404334111,
+          "duration" : 5194
+        }
+      }, {
+        "uid" : "b0ad96d1467f9cb6",
+        "status" : "failed",
+        "statusDetails" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+        "time" : {
+          "start" : 1635338468371,
+          "stop" : 1635338474126,
+          "duration" : 5755
+        }
+      }, {
+        "uid" : "3fcf4157d688e685",
+        "status" : "failed",
+        "statusDetails" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+        "time" : {
+          "start" : 1604991888951,
+          "stop" : 1604991895310,
+          "duration" : 6359
+        }
+      }, {
+        "uid" : "bc8a31f6058a6f0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603973901051,
+          "stop" : 1603973909463,
+          "duration" : 8412
+        }
+      }, {
+        "uid" : "ca779d0a0609595e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603890385674,
+          "stop" : 1603890399649,
+          "duration" : 13975
+        }
+      }, {
+        "uid" : "5bc72bafa774f75e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603722130456,
+          "stop" : 1603722138205,
+          "duration" : 7749
+        }
+      }, {
+        "uid" : "7a8e1ac5847ff348",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603095459461,
+          "stop" : 1603095467025,
+          "duration" : 7564
+        }
+      }, {
+        "uid" : "3a33aeb3e72f58d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600353041455,
+          "stop" : 1600353047012,
+          "duration" : 5557
+        }
+      }, {
+        "uid" : "963808c1910bb1da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600342954624,
+          "stop" : 1600342961042,
+          "duration" : 6418
+        }
+      }, {
+        "uid" : "85d8561579b43f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598965448164,
+          "stop" : 1598965455648,
+          "duration" : 7484
+        }
+      }, {
+        "uid" : "6834489ecfa024f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598958244742,
+          "stop" : 1598958251683,
+          "duration" : 6941
+        }
+      }, {
+        "uid" : "e40e01d721c6b89e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597818384212,
+          "stop" : 1597818391266,
+          "duration" : 7054
+        }
+      }, {
+        "uid" : "89e2b5781f011fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597669587597,
+          "stop" : 1597669594355,
+          "duration" : 6758
+        }
+      }, {
+        "uid" : "6ff149c41ba32100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597655714620,
+          "stop" : 1597655736235,
+          "duration" : 21615
+        }
+      }, {
+        "uid" : "8c0e227a18f4a9c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596794363358,
+          "stop" : 1596794379970,
+          "duration" : 16612
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7223bfa6225a20c7.json",
+  "parameterValues" : [ ]
+}

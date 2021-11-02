@@ -1,0 +1,51 @@
+[ {
+  "uid" : "7223bfa6225a20c7",
+  "name" : "Дымовой тест списка Исполнителей",
+  "time" : {
+    "start" : 1635409463259,
+    "stop" : 1635409469049,
+    "duration" : 5790
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cacfecf645e29c9",
+  "name" : "дымовой тест списка Заявок",
+  "time" : {
+    "start" : 1635409457865,
+    "stop" : 1635409462372,
+    "duration" : 4507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6081757ca0c589b",
+  "name" : "дымовой тест списка Задач",
+  "time" : {
+    "start" : 1635409432687,
+    "stop" : 1635409453087,
+    "duration" : 20400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82966d6b2313d81d",
+  "name" : "дымовой тест списка Запросов",
+  "time" : {
+    "start" : 1635409453775,
+    "stop" : 1635409456973,
+    "duration" : 3198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c666598101b4e7a",
+  "name" : "Дымовой тест списка Объекты обслуживания",
+  "time" : {
+    "start" : 1635409471955,
+    "stop" : 1635409476088,
+    "duration" : 4133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

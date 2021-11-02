@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : " Kislyak",
+    "children" : [ {
+      "name" : "дымовой тест списка Задач",
+      "uid" : "e6081757ca0c589b",
+      "parentUid" : "3cb67030befdb58b3657f2c615d60531",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635409432687,
+        "stop" : 1635409453087,
+        "duration" : 20400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "дымовой тест списка Запросов",
+      "uid" : "82966d6b2313d81d",
+      "parentUid" : "3cb67030befdb58b3657f2c615d60531",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635409453775,
+        "stop" : 1635409456973,
+        "duration" : 3198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "дымовой тест списка Заявок",
+      "uid" : "6cacfecf645e29c9",
+      "parentUid" : "3cb67030befdb58b3657f2c615d60531",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635409457865,
+        "stop" : 1635409462372,
+        "duration" : 4507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Дымовой тест списка Исполнителей",
+      "uid" : "7223bfa6225a20c7",
+      "parentUid" : "3cb67030befdb58b3657f2c615d60531",
+      "status" : "failed",
+      "time" : {
+        "start" : 1635409463259,
+        "stop" : 1635409469049,
+        "duration" : 5790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Дымовой тест списка Объекты обслуживания",
+      "uid" : "6c666598101b4e7a",
+      "parentUid" : "3cb67030befdb58b3657f2c615d60531",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635409471955,
+        "stop" : 1635409476088,
+        "duration" : 4133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3cb67030befdb58b3657f2c615d60531"
+  } ]
+}

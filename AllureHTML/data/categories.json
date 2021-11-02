@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Кнопка с именем <СписокИсполнителейИзменить> не найдена.",
+      "children" : [ {
+        "name" : "Дымовой тест списка Исполнителей",
+        "uid" : "7223bfa6225a20c7",
+        "parentUid" : "86ddc14fff0acffe683d4ab0aeb559a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635409463259,
+          "stop" : 1635409469049,
+          "duration" : 5790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86ddc14fff0acffe683d4ab0aeb559a4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,739 @@
+{
+  "uid" : "82966d6b2313d81d",
+  "name" : "дымовой тест списка Запросов",
+  "historyId" : "Дымовой тест.дымовой тест списка Запросов",
+  "time" : {
+    "start" : 1635409453775,
+    "stop" : 1635409456973,
+    "duration" : 3198
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "И я подключаю TestClient \"sd_test\" логин \"Руководитель1\" пароль \"\"",
+    "time" : {
+      "start" : 1635409453855,
+      "stop" : 1635409454587,
+      "duration" : 732
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "sd_test"
+    }, {
+      "name" : "Парам2",
+      "value" : "Руководитель1"
+    }, {
+      "name" : "Парам3",
+      "value" : ""
+    } ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "И я закрыл все окна клиентского приложения",
+    "time" : {
+      "start" : 1635409454735,
+      "stop" : 1635409455044,
+      "duration" : 309
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Если это не начальная страница Тогда",
+    "time" : {
+      "start" : 1635409455045,
+      "stop" : 1635409455047,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "И я активизирую поле \"ПолеHTML\"",
+    "time" : {
+      "start" : 1635409455047,
+      "stop" : 1635409455124,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "ПолеHTML"
+    } ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "И в таблице \"СписокЗапросов\" я нажимаю на кнопку 'Непринятые'",
+      "time" : {
+        "start" : 1635409455337,
+        "stop" : 1635409455507,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокЗапросов"
+      }, {
+        "name" : "Парам2",
+        "value" : "Непринятые"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокЗапросов\" я нажимаю на кнопку с именем 'СписокЗапросовОтборЗапросыОчистить'",
+      "time" : {
+        "start" : 1635409455507,
+        "stop" : 1635409455621,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокЗапросов"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокЗапросовОтборЗапросыОчистить"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокЗапросов\" я нажимаю на кнопку с именем 'СписокЗапросовОбновить'",
+      "time" : {
+        "start" : 1635409455621,
+        "stop" : 1635409455681,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокЗапросов"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокЗапросовОбновить"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокЗапросов\" я нажимаю на кнопку с именем 'СписокЗапросовВывестиСписок'",
+      "time" : {
+        "start" : 1635409455681,
+        "stop" : 1635409455733,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокЗапросов"
+      }, {
+        "name" : "Парам2",
+        "value" : "СписокЗапросовВывестиСписок"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда открылось окно 'Вывести список'",
+      "time" : {
+        "start" : 1635409455733,
+        "stop" : 1635409455769,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Вывести список"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я нажимаю на кнопку 'Отмена'",
+      "time" : {
+        "start" : 1635409455769,
+        "stop" : 1635409455786,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Отмена"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокЗапросов\" я нажимаю на кнопку 'Настройки запросов'",
+      "time" : {
+        "start" : 1635409455786,
+        "stop" : 1635409455825,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокЗапросов"
+      }, {
+        "name" : "Парам2",
+        "value" : "Настройки запросов"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда открылось окно 'Выберите поля'",
+      "time" : {
+        "start" : 1635409455825,
+        "stop" : 1635409455892,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Выберите поля"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я снимаю флаг 'Автор'",
+      "time" : {
+        "start" : 1635409455892,
+        "stop" : 1635409455899,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Автор"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я снимаю флаг 'Дата'",
+      "time" : {
+        "start" : 1635409455899,
+        "stop" : 1635409455911,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Дата"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я снимаю флаг 'Объект обслуживания'",
+      "time" : {
+        "start" : 1635409455911,
+        "stop" : 1635409455945,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Объект обслуживания"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я изменяю флаг 'Автор'",
+      "time" : {
+        "start" : 1635409455945,
+        "stop" : 1635409455972,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Автор"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я изменяю флаг 'Объект обслуживания'",
+      "time" : {
+        "start" : 1635409455973,
+        "stop" : 1635409455995,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Объект обслуживания"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я нажимаю на кнопку 'ОК'",
+      "time" : {
+        "start" : 1635409455995,
+        "stop" : 1635409456036,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ОК"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокЗапросов\" я нажимаю на кнопку 'Настройки запросов'",
+      "time" : {
+        "start" : 1635409456036,
+        "stop" : 1635409456395,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокЗапросов"
+      }, {
+        "name" : "Парам2",
+        "value" : "Настройки запросов"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда открылось окно 'Выберите поля'",
+      "time" : {
+        "start" : 1635409456396,
+        "stop" : 1635409456442,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Выберите поля"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я изменяю флаг 'Автор'",
+      "time" : {
+        "start" : 1635409456442,
+        "stop" : 1635409456450,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Автор"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я изменяю флаг 'Дата'",
+      "time" : {
+        "start" : 1635409456450,
+        "stop" : 1635409456484,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Дата"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я нажимаю на кнопку 'ОК'",
+      "time" : {
+        "start" : 1635409456484,
+        "stop" : 1635409456525,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ОК"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И в таблице \"СписокЗапросов\" я нажимаю на кнопку 'Настройки запросов'",
+      "time" : {
+        "start" : 1635409456526,
+        "stop" : 1635409456858,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокЗапросов"
+      }, {
+        "name" : "Парам2",
+        "value" : "Настройки запросов"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда открылось окно 'Выберите поля'",
+      "time" : {
+        "start" : 1635409456858,
+        "stop" : 1635409456902,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Выберите поля"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я изменяю флаг 'Объект обслуживания'",
+      "time" : {
+        "start" : 1635409456902,
+        "stop" : 1635409456907,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Объект обслуживания"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я изменяю флаг 'Дата'",
+      "time" : {
+        "start" : 1635409456907,
+        "stop" : 1635409456941,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Дата"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И я нажимаю на кнопку 'ОК'",
+      "time" : {
+        "start" : 1635409456941,
+        "stop" : 1635409456973,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ОК"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 24,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "дымовой тест списка Запросов"
+  }, {
+    "name" : "epic",
+    "value" : "001_ДымовыеТесты"
+  }, {
+    "name" : "suite",
+    "value" : " Kislyak"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "001_ДымовыеТесты"
+  }, {
+    "name" : "host",
+    "value" : "Developer1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "69922b99aa47f0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635409453775,
+          "stop" : 1635409456973,
+          "duration" : 3198
+        }
+      }, {
+        "uid" : "a8adb7c7d2e070b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635405418596,
+          "stop" : 1635405422345,
+          "duration" : 3749
+        }
+      }, {
+        "uid" : "a82c7d5c178d14a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635404319966,
+          "stop" : 1635404322958,
+          "duration" : 2992
+        }
+      }, {
+        "uid" : "8d54e7d3b477fc54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635404319966,
+          "stop" : 1635404322958,
+          "duration" : 2992
+        }
+      }, {
+        "uid" : "4764ef8e5bdef321",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635338451359,
+          "stop" : 1635338455786,
+          "duration" : 4427
+        }
+      }, {
+        "uid" : "72d181d23f995901",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604991864232,
+          "stop" : 1604991870842,
+          "duration" : 6610
+        }
+      }, {
+        "uid" : "a126a0b7bff43306",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603973874302,
+          "stop" : 1603973883082,
+          "duration" : 8780
+        }
+      }, {
+        "uid" : "a453f14a6f30329d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603890353018,
+          "stop" : 1603890364205,
+          "duration" : 11187
+        }
+      }, {
+        "uid" : "4a2782767212da0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603722109737,
+          "stop" : 1603722115690,
+          "duration" : 5953
+        }
+      }, {
+        "uid" : "a87be7bc59f5f9cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603095437243,
+          "stop" : 1603095444290,
+          "duration" : 7047
+        }
+      }, {
+        "uid" : "bfe12a161c1aae32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600353022158,
+          "stop" : 1600353027455,
+          "duration" : 5297
+        }
+      }, {
+        "uid" : "8b68ce9705bcda1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600342934374,
+          "stop" : 1600342940483,
+          "duration" : 6109
+        }
+      }, {
+        "uid" : "a836983a67f5a3f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598965425929,
+          "stop" : 1598965431773,
+          "duration" : 5844
+        }
+      }, {
+        "uid" : "bd2effb426a605c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598958222055,
+          "stop" : 1598958228664,
+          "duration" : 6609
+        }
+      }, {
+        "uid" : "8a076d5117d68c0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597818364040,
+          "stop" : 1597818369618,
+          "duration" : 5578
+        }
+      }, {
+        "uid" : "d6ebfbaa30e9b46a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597669567081,
+          "stop" : 1597669573565,
+          "duration" : 6484
+        }
+      }, {
+        "uid" : "bcab11a768f604eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597655665214,
+          "stop" : 1597655679620,
+          "duration" : 14406
+        }
+      }, {
+        "uid" : "b2e6f1bbcfa74b14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596794311560,
+          "stop" : 1596794320534,
+          "duration" : 8974
+        }
+      } ]
+    },
+    "tags" : [ "tree" ]
+  },
+  "source" : "82966d6b2313d81d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Oct 28 11:24:23 MSK 2021","Thu Oct 28 11:24:29 MSK 2021","5790",""," Kislyak","","","","Дымовой тест списка Исполнителей",""
+"passed","Thu Oct 28 11:24:17 MSK 2021","Thu Oct 28 11:24:22 MSK 2021","4507",""," Kislyak","","","","дымовой тест списка Заявок",""
+"passed","Thu Oct 28 11:23:52 MSK 2021","Thu Oct 28 11:24:13 MSK 2021","20400",""," Kislyak","","","","дымовой тест списка Задач",""
+"passed","Thu Oct 28 11:24:13 MSK 2021","Thu Oct 28 11:24:16 MSK 2021","3198",""," Kislyak","","","","дымовой тест списка Запросов",""
+"passed","Thu Oct 28 11:24:31 MSK 2021","Thu Oct 28 11:24:36 MSK 2021","4133",""," Kislyak","","","","Дымовой тест списка Объекты обслуживания",""
