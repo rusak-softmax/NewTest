@@ -3,15 +3,15 @@
     "ВыполнитьСценарии": true,
     "ЗавершитьРаботуСистемы": true,
     "ВыводитьСообщенияВФайл": "$workspaceRoot/build/out/vb.log",
-	"КаталогОтносительноКоторогоНадоСтроитьИерархию": "./../sdTestBacklog",
+	"КаталогОтносительноКоторогоНадоСтроитьИерархию": "$workspaceRoot/sdTestBacklog",
   	 "УровеньОтчета1": "#report.epic=;Каталог1",
   	 "УровеньОтчета2": "#report.story=;ИмяСценария",
   	 "ГруппировкаTestSuites": "#author:",
     "ЗакрытьTestClientПослеЗапускаСценариев": true,
-   	 "КаталогФич": "./../sdTestBacklog",
+   	 "КаталогФич": "$workspaceRoot/sdTestBacklog",
 	
     "КаталогиБиблиотек": [
-        "./features/Libraries"
+        "$workspaceRoot/vanessa-automation/features/Libraries"
     ],
     "СписокТеговИсключение":[
         "IgnoreOnCIMainBuild",
