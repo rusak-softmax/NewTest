@@ -66,47 +66,7 @@ pipeline {
                 }
             }
         }
-        stage("Запуск") {
-            steps {
-                timestamps {
-                    script {
-
-                        for (i = 0;  i < templatebasesList.size(); i++) {
-                            templateDb = templatebasesList[i]
-                            storage1cPath = storages1cPathList[i]
-                            testbase = "test_${templateDb}"
-                            testbaseConnString = projectHelpers.getConnString(server1c, testbase, agent1cPort)
-                            backupPath = "${env.WORKSPACE}/build/temp_${templateDb}_${utils.currentDateStamp()}"
-
-                            // 1. Удаляем тестовую базу из кластера (если он там была) и очищаем клиентский кеш 1с
-                            
-                            // 2. Делаем sql бекап эталонной базы, которую будем загружать в тестовую базу
-                            
-                            // 3. Загружаем sql бекап эталонной базы в тестовую
-                            
-                            // 4. Создаем тестовую базу кластере 1С
-                            
-                            // 5. Обновляем тестовую базу из хранилища 1С (если применимо)
-                            
-                            // 6. Запускаем внешнюю обработку 1С, которая очищает базу от всплывающего окна с тем, что база перемещена при старте 1С
-                            runHandlers1cTasks["runHandlers1cTask_${testbase}"] = runHandlers1cTask(
-                                testbase, 
-                                admin1cUser, 
-                                admin1cPwd,
-                                testbaseConnString
-                            )
-                        }
-
-                        parallel dropDbTasks
-                        parallel backupTasks
-                        parallel restoreTasks
-                        parallel createDbTasks
-                        parallel updateDbTasks
-                        parallel runHandlers1cTasks
-                    }
-                }
-            }
-        }
+      
         stage("Тестирование ADD") {
             steps {
                 timestamps {
