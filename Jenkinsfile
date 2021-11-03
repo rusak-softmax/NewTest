@@ -167,7 +167,7 @@ pipeline {
                         }
                         // Запускаем ADD тестирование на произвольной базе, сохранившейся в переменной testbaseConnString
                        // returnCode = utils.cmd("runner --pathvanessa vanessa-automation/vanessa-automation.epf ${platform1cLine} --ibconnection \"${testbaseConnString}\" ${admin1cUsrLine} ${admin1cPwdLine} vanessa --settings vanessa-automation/VBParams.json ")
-                        returnCode = utils.cmd("runner vanessa --settings tools/VBParams.json ${platform1cLine} --ibconnection \"${testbaseConnString}\" ${admin1cUsrLine} ${admin1cPwdLine} --pathvanessa tools/add/vanessa-automation.epf")
+                        returnCode = utils.cmd("runner vanessa --settings tools/VBParams.json ${platform1cLine} --ibconnection \"${testbaseConnString}\" ${admin1cUsrLine} ${admin1cPwdLine} --pathvanessa tools/add/bddRunner.epf")
 					
 			    if (returnCode != 0) {
                             utils.raiseError("Возникла ошибка при запуске ADD на сервере ${server1c} и базе ${testbase}")
