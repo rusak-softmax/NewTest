@@ -143,13 +143,19 @@ pipeline {
             }
         }
 	  
-  stage('SonarQube analysis') {
+	stage ('Аналитика SonarQube') {
     steps {
-    withSonarQubeEnv('http://localhost:9000') { // If you have configured more than one global server connection, you can specify its name
-      sh "${scannerHome}/bin/sonar-scanner"
+        script {
+            scannerHome = tool "sonar-scanner"
+        }
+        withSonarQubeEnv("Sonar"){
+            cmd("${scannerHome}\\bin\\sonar-scanner")
+        }
     }
-  }
-  }   
+}    
+  
+	    
+	    
         stage("Тестирование ADD") {
             steps {
                 timestamps {
