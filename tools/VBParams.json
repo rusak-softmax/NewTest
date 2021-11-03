@@ -3,9 +3,10 @@
     "ЗавершитьРаботуСистемы": true,
     "ВыводитьСообщенияВФайл": "$workspaceRoot/build/out/vb.log",
     "ЗакрытьTestClientПослеЗапускаСценариев": true,
-    "КаталогФич": "$workspaceRoot/features",
+    "КаталогФич": "$workspaceRoot/sdTestBacklog",
+    "КаталогОтносительноКоторогоНадоСтроитьИерархию": "./vanessa-automation",
     "КаталогиБиблиотек": [
-        "./features/Libraries"
+        "./vanessa-automation/features/Libraries"
     ],
     "СписокТеговИсключение":[
         "IgnoreOnCIMainBuild",
