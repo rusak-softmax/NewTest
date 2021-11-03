@@ -147,12 +147,12 @@ pipeline {
 	    
 	stage("build & SonarQube analysis") {
 		steps {
-          node {
+          
               withSonarQubeEnv('My SonarQube Server') {
                  sh 'mvn clean package sonar:sonar'
               }
           }
-		}
+		
 	}
 
       stage("Quality Gate"){
