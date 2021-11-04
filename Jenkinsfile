@@ -150,7 +150,7 @@ stage('Build SonarQube') {
 		  script {  
                def scannerHome = tool "SonarQubeScanner";
                 withSonarQubeEnv('SonarQube') {
-                    sh "${scannerHome}/bin/sonar-scanner.bat"
+                    sh "${scannerHome}/bin/sonar-scanner"
 			}
                 }
             }
