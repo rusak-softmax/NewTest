@@ -144,14 +144,16 @@ pipeline {
             }
         }
 
-	stage('Build') {
-            steps {
-               
-                withSonarQubeEnv('SonarQubeScanner') {
-                    sh "${scannerHome}/bin/sonar-scanner"
-                }
+	stage('Code Quality Check via SonarQube') {
+steps {
+    script {
+        def scannerHome = tool "sonarqube_scanner";
+        withSonarQubeEnv("SonarQube") {
+             sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=obp-planting-ui -Dsonar.sources=. -Dsonar.css.node=. -Dsonar.host.url=http://localhost:9000/ -Dsonar.login=admin"
             }
-        }    
+        }
+    }
+}
 	    
 	    
         stage("Тестирование ADD") {
