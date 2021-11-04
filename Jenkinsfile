@@ -144,16 +144,15 @@ pipeline {
             }
         }
 
-	stage('Code Quality Check via SonarQube') {
-steps {
-    script {
-        def scannerHome = tool "SonarQubeScanner";
-        withSonarQubeEnv("SonarQube") {
-		sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=obp-planting-ui -Dsonar.sources=. -Dsonar.css.node=. -Dsonar.host.url=https://sonar-github.cloud.bayer.com -Dsonar.login=xxxx"
+	
+stage('Build SonarQube') {
+            steps {
+               def scannerHome = tool "SonarQubeScanner";
+                withSonarQubeEnv('SonarQube') {
+                    sh "${scannerHome}/bin/sonar-scanner"
+                }
             }
-        }
-    }
-}
+        } 
 	    
 	    
         stage("Тестирование ADD") {
