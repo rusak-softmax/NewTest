@@ -147,7 +147,7 @@ pipeline {
 	stage('Code Quality Check via SonarQube') {
 steps {
     script {
-        def scannerHome = tool "sonarqube_scanner";
+        def scannerHome = tool "SonarQubeScanner";
         withSonarQubeEnv("SonarQube") {
              sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=obp-planting-ui -Dsonar.sources=. -Dsonar.css.node=. -Dsonar.host.url=http://localhost:9000/ -Dsonar.login=admin"
             }
