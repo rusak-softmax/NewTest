@@ -149,7 +149,7 @@ steps {
     script {
         def scannerHome = tool "SonarQubeScanner";
         withSonarQubeEnv("SonarQube") {
-             sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=obp-planting-ui -Dsonar.sources=. -Dsonar.css.node=. -Dsonar.host.url=http://localhost:9000/ -Dsonar.login=admin"
+		sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=obp-planting-ui -Dsonar.sources=. -Dsonar.css.node=. -Dsonar.host.url=https://sonar-github.cloud.bayer.com -Dsonar.login=xxxx"
             }
         }
     }
