@@ -143,7 +143,13 @@ pipeline {
                 }
             }
         }
-
+stage ('Синтаксическая проверка') {
+    steps {
+        timestamps {
+            cmd("vrunner syntax-check --junitpath ./out/junit/syntaxCheck.xml --ibconnection ${baseConnection}")
+        }
+    }
+}
 	stage('Sonarqube') {
     environment {
         scannerHome = tool 'SonarQubeScanner'
