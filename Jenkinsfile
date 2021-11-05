@@ -148,14 +148,14 @@ pipeline {
     environment {
         scannerHome = tool 'SonarQubeScanner'
     }
-    steps {
+    //steps {
       //  withSonarQubeEnv('SonarQube') {
           //  sh "${scannerHome}/bin/sonar-scanner"
      //   }
       //  timeout(time: 10, unit: 'MINUTES') {
       //      waitForQualityGate abortPipeline: true
       //  }
-    }
+   // }
 }
 
 	    
