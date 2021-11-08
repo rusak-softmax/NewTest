@@ -162,7 +162,7 @@ pipeline {
       //      waitForQualityGate abortPipeline: true
       //  }
   //  }
-}
+//}
 
 	    
         stage("Тестирование ADD") {
