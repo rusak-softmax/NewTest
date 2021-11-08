@@ -4,8 +4,6 @@
     "ЗавершитьРаботуСистемы": true,
     "ВыводитьСообщенияВФайл": "$workspaceRoot/build/out/vb.log",
 	"КаталогОтносительноКоторогоНадоСтроитьИерархию": "$workspaceRoot/sdTestBacklog",
-  	 "УровеньОтчета1": "#report.epic=;Каталог1",
-  	 "УровеньОтчета2": "#report.story=;ИмяСценария",
   	 "ГруппировкаTestSuites": "#author:",
     "ЗакрытьTestClientПослеЗапускаСценариев": true,
    	 "КаталогФич": "$workspaceRoot/sdTestBacklog",
