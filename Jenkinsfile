@@ -143,6 +143,28 @@ pipeline {
                 }
             }
         }
+stage ('Синтаксическая проверка') {
+    steps {
+        timestamps {
+            cmd("vrunner syntax-check --junitpath ./out/junit/syntaxCheck.xml --ibconnection \"${testbaseConnString}\" ${admin1cUsrLine} ${admin1cPwdLine} ")
+        }
+    }
+}
+	stage('Sonarqube') {
+    environment {
+        scannerHome = tool 'SonarQubeScanner'
+    }
+    steps {
+        withSonarQubeEnv('SonarQube') {
+          //  sh "${scannerHome}/bin/sonar-scanner"
+        }
+      //  timeout(time: 10, unit: 'MINUTES') {
+      //      waitForQualityGate abortPipeline: true
+      //  }
+    }
+}
+
+	    
         stage("Тестирование ADD") {
             steps {
                 timestamps {
@@ -167,7 +189,7 @@ pipeline {
                             admin1cPwdLine = "--db-pwd ${admin1cPwd}"
                         }
                         // Запускаем ADD тестирование на произвольной базе, сохранившейся в переменной testbaseConnString
-                       	    returnCode = utils.cmd("runner vanessa --settings vanessa-automation/VBParams.json ${platform1cLine} --ibconnection \"${testbaseConnString}\" ${admin1cUsrLine} ${admin1cPwdLine} --pathvanessa vanessa-automation/vanessa-automation.epf")
+                       	    returnCode = utils.cmd("runner vanessa --settings tools/vrunner.json ${platform1cLine} --ibconnection \"${testbaseConnString}\" ${admin1cUsrLine} ${admin1cPwdLine} --pathvanessa vanessa-automation/vanessa-automation.epf")
 			    
 			    if (returnCode != 0) {
                             utils.raiseError("Возникла ошибка при запуске ADD на сервере ${server1c} и базе ${testbase}")
