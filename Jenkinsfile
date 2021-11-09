@@ -143,28 +143,6 @@ pipeline {
                 }
             }
         }
-//stage ('Синтаксическая проверка') {
-//    steps {
-        //timestamps {
-         //   cmd("vrunner syntax-check --junitpath ./out/junit/syntaxCheck.xml --ibconnection \"${testbaseConnString}\" --db-user ${admin1cUsrLine} --db-pwd ${admin1cPwdLine} ")
-  //      }
-//    }
-//}
-//	stage('Sonarqube') {
-   // environment {
-   //     scannerHome = tool 'SonarQubeScanner'
-   // }
-   // steps {
-   //     withSonarQubeEnv('SonarQube') {
-          //  sh "${scannerHome}/bin/sonar-scanner"
-   //     }
-      //  timeout(time: 10, unit: 'MINUTES') {
-      //      waitForQualityGate abortPipeline: true
-      //  }
-  //  }
-//}
-
-	    
         stage("Тестирование ADD") {
             steps {
                 timestamps {
